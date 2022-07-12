@@ -1,38 +1,5 @@
-/* void Gold_inf()								// 설명
-{
-	Big_Clear();
-	Long_Clear();
-	Loading_Clear();
-	Small_Clear();
-	gotoxy(2, 1);
-	printf("처음 금괴 한 개의 가격은 1000만 원이지만\n");
-	gotoxy(2, 2);
-	printf("날이 지날 때마다 랜덤하게 금괴의 가격이 변동합니다.\n");
-	gotoxy(2, 3); 
-	printf("금괴의 가격은 500만 원 아래로는 내려가지 않습니다.\n");
-	gotoxy(2, 4); 
-	printf("변동 가격은 -299.99 ~ +299.99 중 랜덤으로 선택됩니다.\n\n");
-	gotoxy(2, 5); 
-	printf("낮은 확률로 금괴 대폭락 이벤트가 발생합니다.\n");
-	gotoxy(2, 6); 
-	printf("발생할 경우 3일 동안 금괴의 가격이 3~400만 원씩 떨어집니다.\n");
-	gotoxy(2, 7); 
-	printf("갑자기 가격이 뛰는 경우도 있습니다.\n");
-	gotoxy(2, 8); 
-	printf("금괴의 가격은 금 거래소에서만 확인할 수 있습니다.\n");
-	gotoxy(2, 9); 
-	printf("팔 때는 수수료 때문에 0.8배로 파실 수 있습니다\n\n");
-	gotoxy(2, 10);
-	printf("한 개의 금괴를 사고팔 때마다 HP가 3씩 감소합니다.\n\n\n");
-	gotoxy(2, 12);
-	printf("아무 버튼이나 눌러 금 거래소로\n");
-	getch();
-	Sleep(100);
-}
-
-
 // 경마장 함수
-void Race()										// 경마장
+/*void Race()										// 경마장
 {
 	int i;
 
