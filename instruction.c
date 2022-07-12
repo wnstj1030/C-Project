@@ -1,4 +1,4 @@
-void First_inf()					// 초기 설명
+/*void First_inf()					// 초기 설명
 {
 	int Page = 1;
 	int key;
@@ -101,4 +101,4 @@ void First_inf()					// 초기 설명
 			break;
 	}
 	ing(0.5);
-}
+}*/
